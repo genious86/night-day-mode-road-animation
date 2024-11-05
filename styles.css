@@ -10,3 +10,17 @@
     overflow: hidden;
     background: linear-gradient( #a6d8ff , #fff , #fff)
 }
+
+.sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    top: 100px;
+    left: 55%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 50px;
+    transition: 0.2s;
+    cursor: pointer;
+}

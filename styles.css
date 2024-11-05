@@ -4,3 +4,9 @@
     box-sizing: border-box;
 }
 
+.scene {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient( #a6d8ff , #fff , #fff)
+}

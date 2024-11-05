@@ -1,6 +1,6 @@
 let sun = document.querySelector('.sun')
 let scene = document.querySelector('.scene')
 
-sun.addEventListener('click', ()={
+sun.addEventListener('click', ()=>{
     scene.classList.toggle('night')
 })

@@ -60,6 +60,7 @@
     bottom: 50px;
     max-width: 200px;
     right: -200px;
+    animation: car2 12s linear infinite;
 }
 
 @keyframes car1 {
@@ -72,6 +73,20 @@
     90%, 100% {
 
         transform: translateX(calc(100vw + 200px));
+
+    }
+}
+@keyframes car2 {
+
+    0%{
+        transform: translateX(0px) rotateY(180deg);
+
+    }
+
+    90%, 100% {
+
+        transform: translateX(calc(-100vw - 200px))
+        rotateY(180deg);
 
     }
 }
